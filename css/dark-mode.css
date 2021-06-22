@@ -3,19 +3,20 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  color: #40514E;
+  color: #528D8C;
   font-weight: bold;
+  background-color: black;
 }
 
 h1 {
   font-size: 5.625rem;
   margin: 3.125rem auto 0 auto;
   font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+  color: #EEEEEE;
 }
 
 h2 {
-  color: #66BFBF;
+  color: #00ADB5;
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 0.625rem;
@@ -23,7 +24,7 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #00ADB5;
 }
 
 a {
@@ -44,10 +45,17 @@ p {
 }
 /**********************************************Class selectors**********************************************/
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #222831;
   position: relative;
   padding-top: 6.25rem;
   line-height: 2;
+}
+
+.discription {
+  color: #EEEEEE;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 0.625rem;
 }
 
 .top-cloud {
@@ -166,4 +174,35 @@ p {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ab);
   text-decoration: none;
 }
+
+.mode {
+  background: #222831;
+  background-image: -webkit-linear-gradient(top, #393E46, #222831);
+  background-image: -moz-linear-gradient(top, #393E46, #222831);
+  background-image: -ms-linear-gradient(top, #393E46, #222831);
+  background-image: -o-linear-gradient(top, #393E46, #222831);
+  background-image: linear-gradient(to bottom, #393E46, #222831);
+    -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1.25rem;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+  text-decoration: none;
+}
+
+.mode:hover {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  text-decoration: none;
+}
+
+
+
+
 /**********************************************ID selectors**********************************************/
