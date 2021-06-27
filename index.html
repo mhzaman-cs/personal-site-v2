@@ -6,25 +6,12 @@
   <title>M.Zaman Site</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+  <script src="js/script.js" type="text/javascript"></script>
 </head>
 <link id="styleing" rel="stylesheet" type="text/css" href="css/dark-mode.css">
 <link rel="icon" href="images/favicon_dark.ico">
 
 <body>
-
-  <script type="text/javascript">
-  var mode = 0;
-    function color_mode(mode){
-      if (mode % 2 == 0){
-        ("#styleing").attr({"href":"css/dark-mode.css"})
-      }
-      else {
-        $("#styleing").attr({"href":"css/light-mode.css"})
-      }
-    }
-  </script>
-
-
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="Cloud">
     <h1>I'm Muhammad</h1>
@@ -84,7 +71,8 @@
     <a class="footer-link" target="_blank" href="https://www.facebook.com/profile.php?id=100040817438747">Facebook</a>
     <a class="footer-link" target="_blank" href="https://www.instagram.com/muhammad895zaman/">Instagram</a>
     <p class="copyright">© 2021 Muhammad Zaman.</p>
-    <a class="mode" href="index..html">Light Mode</a>
+    <button class="mode" id="change_mode" onclick="change_Mode()" name="change_color_mode">Light Mode</button>
+
   </div>
 
 
