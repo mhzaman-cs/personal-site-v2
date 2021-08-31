@@ -8,10 +8,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
   <script src="js/script.js" type="text/javascript"></script>
 </head>
-<link id="styleing" rel="stylesheet" type="text/css" href="css/dark-mode.css">
-<link id="faviconio" rel="icon" href="images/favicon_dark.ico">
+<link id="styleing" rel="stylesheet" type="text/css" href="css/light-mode.css">
+<link id="faviconio" rel="icon" href="images/favicon_light.ico">
 
 <body>
+
+  <!-- Opening Display -->
+
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="Cloud">
     <h1>I'm Muhammad</h1>
@@ -29,6 +32,8 @@
 
     <hr>
 
+    <!-- Skills Section -->
+
     <div class="skills">
       <h2>My Skills.</h2>
       <div class="skill-row">
@@ -43,43 +48,48 @@
         <p class="mid-para">I have tutored students in Math and English. I had started working as a peer tutor at my school in grade 10, where I taught math. At Kumon Canada, I had worked as an assistant, where tutoring was one of my
           responsibilities.</p>
       </div>
+
+      <div class="skill-row">
+        <h3>Customer Service</h3>
+        <img src="images/customerService.gif" class="body_gif even_gif" alt="Customer Service Gif">
+        <p class="mid-para">I have worked as a customer service representative for multiple sports merchandise stores such as nflshop.com, shop.nhl.com, mlbshop.com, and all other web stores powered by Fanatics. While working in this role, I had
+          responded to customer inquires through chats and calls. This experience improved many of my soft skills, such as communication and work efficiency.</p>
+      </div>
     </div>
 
     <hr>
 
+    <!-- Projects Section -->
+
     <div class="my_projects">
+
       <h2>Projects</h2>
 
       <div class="projects">
         <img src="images/weather.gif" class="body_gif even_gif" alt="Weather Gif">
-        <h3>Weather City Website</h3>
+        <h3>Weather City</h3>
         <p class="mid-para">WeatherCity is the most comprehensive and time-consuming project I have made thus far. This full-stack website utilizes node.js for its backend along with OpenWeatherMap's API to display the weather in the city inputted in
           the search bar. It also shows the current weather based on location on the home page. The code for the project could be seen on the following GitHub link: <a target="_blank"
             href="https://github.com/MuhammadZ985/WeatherProject">https://github.com/MuhammadZ985/WeatherProject</a></p>
       </div>
 
       <div class="projects">
-        <img src="images/simonGame.png" class="body_gif even_gif" alt="Simon Game">
-        <h3>Simon Game</h3>
-        <p class="mid-para">The Simon game is an online version of the board game Simon. It is a part of a Udemy challenge where the HTML and CSS of the website were provided and Javascript was required to build the remaining portion of the website. The code for the project could be seen on the following GitHub link: <a target="_blank"
-            href="https://github.com/MuhammadZ985/Simon-Game-Challenge">https://github.com/MuhammadZ985/Simon-Game-Challenge</a></p>
-      </div>
-
-      <!-- <div class="projects">
-        <img src="images/weather.gif" class="body_gif even_gif" alt="Weather Gif">
-        <h3>Weather City Website</h3>
-        <p class="mid-para">WeatherCity is the most comprehensive and time-consuming project I have made thus far. This full-stack website utilizes node.js for its backend along with OpenWeatherMap's API to display the weather in the city inputted in
-          the search bar. It also shows the current weather based on location on the home page. The code for the project could be seen on the following GitHub link: <a target="_blank"
-            href="https://github.com/MuhammadZ985/WeatherProject">https://github.com/MuhammadZ985/WeatherProject</a></p>
+        <img src="images/tinder.gif" class="body_gif odd_gif" alt="Tinder Logo">
+        <h3>TinDog</h3>
+        <p class="mid-para">TinDog is a remix of tinder but for dogs. This website uses Bootstrap, HTML, and CSS to create a single-page static website. The written content of this webpage was provided by a course on Udemy and the challenge was to
+          recreate a
+          webpage based on a pdf document that was provided. I have added my spin to the website to make its UI/UX design more pleasant. The website could be seen on the following webpage: <a
+            href="https://muhammadz985.github.io/TinDog/">https://muhammadz985.github.io/TinDog/</a>. The code could be seen on the following GitHub link: <a target="_blank"
+            href="https://github.com/MuhammadZ985/TinDog">https://github.com/MuhammadZ985/TinDog</a>.</p>
       </div>
 
       <div class="projects">
-        <img src="images/weather.gif" class="body_gif even_gif" alt="Weather Gif">
-        <h3>Weather City Website</h3>
-        <p class="mid-para">WeatherCity is the most comprehensive and time-consuming project I have made thus far. This full-stack website utilizes node.js for its backend along with OpenWeatherMap's API to display the weather in the city inputted in
-          the search bar. It also shows the current weather based on location on the home page. The code for the project could be seen on the following GitHub link: <a target="_blank"
-            href="https://github.com/MuhammadZ985/WeatherProject">https://github.com/MuhammadZ985/WeatherProject</a></p>
-      </div> -->
+        <img src="images/amazon.gif" class="body_gif even_gif" alt="Amazon Gif">
+        <h3>Amazon Customer Reviews Scraper</h3>
+        <p class="mid-para">This web scraping project would download amazon reviews using scrapy and its built in files. To choose which product to download go into reviews.py in spiders and change the values in the list of ASIN numbers to
+          the products you would like to download. Then run the program in the command prompt. The code for the project could be seen on the following GitHub link: <a target="_blank"
+            href="https://github.com/MuhammadZ985/amazonReviews">https://github.com/MuhammadZ985/amazonReviews</a></p>
+      </div>
 
       <div class="projects">
         <img src="images/covid-19.gif" class="body_gif odd_gif" alt="Vaccinator Gif">
@@ -90,33 +100,41 @@
       </div>
 
       <div class="projects">
-        <img src="images/amazon.gif" class="body_gif even_gif" alt="Amazon Gif">
-        <h3>Amazon Customer Reviews Scraper</h3>
-        <p class="mid-para">This is a solo web scraping project that would download and convert amazon reviews into a .csv file. To choose which product to download go into reviews.py in spiders and change the values in the list of ASIN numbers to
-          the products you would like to download. Then run the program in the command prompt. The code for the project could be seen on the following GitHub link: <a target="_blank"
-            href="https://github.com/MuhammadZ985/amazonReviews">https://github.com/MuhammadZ985/amazonReviews</a></p>
-      </div>
-
-      <div class="projects">
-        <img src="images/tinder.gif" class="body_gif odd_gif" alt="Tinder Logo">
-        <h3>TinDog</h3>
-        <p class="mid-para">TinDog is a remix of tinder but for dogs. This website uses Bootstrap, HTML, and CSS to create a single-page static website. The content of this webpage was provided by a course on Udemy and the challenge was to recreate a
-          webpage based on a pdf document that was provided. I have added my spin to the website to make its UI/UX design more pleasant. The website could be seen on the following webpage: <a
-            href="https://muhammadz985.github.io/TinDog/">https://muhammadz985.github.io/TinDog/</a>. The code could be seen on the following GitHub link: <a target="_blank"
-            href="https://github.com/MuhammadZ985/TinDog">https://github.com/MuhammadZ985/TinDog</a>.</p>
-      </div>
-
-      <div class="projects">
         <img src="images/stocks.gif" class="body_gif even_gif" alt="Stocks Gif">
         <h3>S&P 500 Stocks Visualization System</h3>
-        <p class="mid-para">This is a stock visualization system, which creates various graphs based on user input. It can visualize the S&P 500 stocks from 2013-2018 based on a Kaggle data set. It is a solo project made through python with the
-          pandas and plotly
-          libraries. The code could be seen on the following GitHub link: <a target="_blank" href="https://github.com/MuhammadZ985/S-P500-Stock-Visulaization">https://github.com/MuhammadZ985/S-P500-Stock-Visulaization</a></p>
+        <p class="mid-para">This is a stock visualization system, which creates various graphs based on user input. It can visualize the S&P 500 stocks from 2013-2018 based on a Kaggle data set. This project utilizes the python libraries of pandas
+          and plotly. The code could be seen on the following GitHub link: <a target="_blank" href="https://github.com/MuhammadZ985/S-P500-Stock-Visulaization">https://github.com/MuhammadZ985/S-P500-Stock-Visulaization</a></p>
       </div>
+
+      <div class="projects">
+        <img src="images/drum.gif" class="body_gif odd_gif" alt="Drum Gif">
+        <h3>Drum Kit</h3>
+        <p class="mid-para"> Drum kit is an online virtual mimic of a drum set, with different keys corresponding to different types of drums. The buttons may also be clicked using mouse pad, however using the keyboard offers a more realistic experience. The
+          code could be seen on the following GitHub link: <a target="_blank" href="https://github.com/MuhammadZ985/Drum-Kit">https://github.com/MuhammadZ985/Drum-Kit</a></p>
+      </div>
+
+      <div class="projects">
+        <img src="images/simonGame.png" class="body_gif even_gif" alt="Simon Game">
+        <h3>Simon Game</h3>
+        <p class="mid-para">The Simon game is an online version of the board game Simon. The board is the screen and the 4 colors correspond to the 4 colors in simon. The objective of this game is to remember the chain of colors that were presented
+          by the game and to input them everytime the level changes. The code for the project could be seen on the following GitHub link: <a target="_blank"
+            href="https://github.com/MuhammadZ985/Simon-Game-Challenge">https://github.com/MuhammadZ985/Simon-Game-Challenge</a></p>
+      </div>
+
+      <div class="projects">
+        <img src="images/dice.gif" class="body_gif odd_gif" alt="Dice Gif">
+        <h3>Dice Game</h3>
+        <p class="mid-para">The dice challenge was one of the first challenges that I had done. The objective was to use basic javascript to create an online simulation of rolling a dice. A single die represents each player, the winner of the game
+          would be the one that rolls the higher number. Refreshing the page would roll the dice again while informing the players of who had won. The code for the project could be seen on the following GitHub link: <a target="_blank"
+            href="https://github.com/MuhammadZ985/Dicee_Challenge">https://github.com/MuhammadZ985/Dicee_Challenge</a></p>
+      </div>
+
 
     </div>
 
     <hr>
+
+    <!-- Contact Me Section -->
 
     <div class="contact-me">
       <h2>Get In Touch</h2>
@@ -132,7 +150,7 @@
     <a class="footer-link" target="_blank" href="https://www.facebook.com/MuhammadZ895/">Facebook</a>
     <a class="footer-link" target="_blank" href="https://www.instagram.com/muhammadhzaman/">Instagram</a>
     <p class="copyright">© 2021 Muhammad Zaman.</p>
-    <button class="mode" id="change_mode" onclick="change_Mode()" name="change_color_mode">Light Mode</button>
+    <button class="mode" id="change_mode" onclick="change_Mode()" name="change_color_mode">Dark Mode</button>
   </div>
 
 
