@@ -43,6 +43,11 @@ hr {
 p {
   line-height: 2;
 }
+
+li {
+  display: block;
+}
+
 /**********************************************Class selectors**********************************************/
 .top-container {
   background-color: #222831;
