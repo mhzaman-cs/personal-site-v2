@@ -67,6 +67,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -319,17 +320,7 @@ input, select, textarea {
 	  background: #555;
 		border-radius: 100px;
 	}
-/* ID */
-
-
-/* #about {
-	width: 80% !important;
-} */
-
-#work{
-	width: 50% !important;
-}
-
+	
 /* Form */
 
 	form {
